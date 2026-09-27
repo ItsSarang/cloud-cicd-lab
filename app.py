@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to Cloud Computing Lab"
+    return "Welcome to Cloud Computing Lab - Second Commit Deployed Successfully!"
 
 @app.route("/student")
 def student():
